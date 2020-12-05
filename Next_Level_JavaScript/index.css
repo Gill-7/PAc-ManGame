@@ -1,0 +1,38 @@
+html, body {
+    margin: 10;
+    padding: 10;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    border: solid black;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;
+}
+
+.pac-dot {
+    background-color: rgb(84, 167, 1);
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: darkblue;
+}
+
+.power-pellet {
+    background-color: rgb(98, 163, 0);
+    border-radius: 7.5px;
+}
+
+.pacman {
+    background-color: rgb(209, 161, 5);
+    border-radius: 7.5px;
+    border: none;
+}
